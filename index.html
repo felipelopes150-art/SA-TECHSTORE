@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore Júnior</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <h1 class="logo">🛒 TechStore <span>Júnior</span></h1>
+
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#carrinho">Carrinho (<span id="contadorCarrinho">0</span>)</a>
+                <a href="#checkout">Finalizar</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="inicio" class="banner">
+        <div class="container">
+            <h2>Tecnologia boa e barata pra você 💙</h2>
+            <p>Acessórios de celular, informática e eletrônicos com preço justo.</p>
+            <a href="#produtos" class="botao botao-branco">Ver produtos</a>
+            <div class="icones-categorias">
+                <span>📱 Celular</span>
+                <span>💻 Informática</span>
+                <span>🎧 Áudio</span>
+                <span>🔋 Energia</span>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+
+
+        <section id="produtos" class="secao">
+            <h2>Nossos produtos</h2>
+
+
+            <div id="listaProdutos" class="grade-produtos">
+                <p>Carregando produtos...</p>
+            </div>
+        </section>
+
+
+        <section id="carrinho" class="secao">
+            <h2>Carrinho de compras</h2>
+
+            <div class="caixa-carrinho">
+                <ul id="listaCarrinho" class="lista-carrinho">
+                    <li id="carrinhoVazio">Seu carrinho está vazio.</li>
+                </ul>
+
+                <div class="totais">
+                    <p>Subtotal: <span id="subtotal">R$ 0,00</span></p>
+                    <p id="linhaDesconto" class="linha-desconto" style="display:none;">
+                        Desconto (10%): <span id="desconto">- R$ 0,00</span>
+                    </p>
+                    <p class="total"><strong>Total: <span id="total">R$ 0,00</span></strong></p>
+                    <p class="dica" id="dicaDesconto">Compre acima de R$ 150,00 e ganhe 10% de desconto!</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="checkout" class="secao">
+            <h2>Finalizar pedido</h2>
+
+            <form id="formCheckout" class="formulario">
+                <div class="campo">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome">
+                    <span class="erro" id="erroNome"></span>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" placeholder="Digite seu e-mail">
+                    <span class="erro" id="erroEmail"></span>
+                </div>
+
+                <div class="campo">
+                    <label for="quantidade">Quantidade de itens</label>
+                    <input type="number" id="quantidade" placeholder="Ex: 2">
+                    <span class="erro" id="erroQuantidade"></span>
+                </div>
+
+                <button type="submit" class="botao botao-azul">Confirmar pedido</button>
+
+                <p id="mensagemFinal" class="mensagem-final"></p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>TechStore Júnior — projeto de estudo, sem pagamento real.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
