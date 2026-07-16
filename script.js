@@ -1,11 +1,9 @@
 
 const produtos = [
-    { id: 1, nome: "Fone de Ouvido Bluetooth", preco: 89.90, imagem: "https://placehold.co/300x300/2563eb/ffffff?text=Fone+Bluetooth" },
-    { id: 2, nome: "Mouse Gamer RGB", preco: 129.90, imagem: "https://placehold.co/300x300/2563eb/ffffff?text=Mouse+Gamer" },
-    { id: 3, nome: "Carregador Turbo 20W", preco: 59.90, imagem: "https://placehold.co/300x300/2563eb/ffffff?text=Carregador" },
-    { id: 4, nome: "Teclado Mecânico Compacto", preco: 199.90, imagem: "https://placehold.co/300x300/2563eb/ffffff?text=Teclado" },
-    { id: 5, nome: "Power Bank 10000mAh", preco: 79.90, imagem: "https://placehold.co/300x300/2563eb/ffffff?text=Power+Bank" },
-    { id: 6, nome: "Suporte para Notebook", preco: 69.90, imagem: "https://placehold.co/300x300/2563eb/ffffff?text=Suporte" },
+    { id: 1, nome: "Fone de Ouvido Bluetooth", preco: 89.90, imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv5Q2I_G5xH4Xq6H2tjrQUZRPxtOdM3y3Syu0rjr0Zuw&s=10"},
+    { id: 4, nome: "Teclado Mecânico Compacto", preco: 199.90, imagem: "https://www.logitechstore.com.br/media/catalog/product/cache/105e6f420716e0751863c4b81f527d17/t/e/teclado.webp" },
+    { id: 5, nome: "Power Bank 10000mAh", preco: 79.90, imagem: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT3KmLhxTf1tiNUxOswsfxgeSmEYyvA5CtwtQcAZlH0GF1lQPVPJ-lQrk5302P0juQgpF7tb3YgpNjC667y774IhJ7h2pIW-uah9K0OjdpsHs88hv_Tdz4bZzVAdiwDbP6Y2CpMNQ&usqp=CAc" },
+    { id: 6, nome: "Suporte para Notebook", preco: 69.90, imagem: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR7noZBXRKIPIVWTVfZoQ4eWfFvkcRYIXw7BSQU6_lFNQZGok6tiq4p4nzA71l5ELsKoSmJ9xmXI_WwcLmi4qVpYhGgu1lU7OQmZvQzcP6Ch0krqqYpouy-TcZO6D1kZ0iHbYwQvjoMNz0&usqp=CAc" },
 ];
 
 
